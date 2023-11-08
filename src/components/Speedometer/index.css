@@ -1,0 +1,51 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #07080c;
+  font-family: 'Roboto';
+}
+.heading {
+  font-style: italic;
+  color: white;
+}
+.image {
+  height: 200px;
+}
+.speed-heading {
+  color: white;
+  font-size: 25px;
+  font-weight: 900;
+}
+.para {
+  color: #cbd5e1;
+}
+.accelerate {
+  color: white;
+  background-color: #0b69ff;
+  width: 90px;
+  height: 30px;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 3px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.brake {
+  color: white;
+  background-color: #0b69ff;
+  width: 100px;
+  height: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #94a3b8;
+  background-color: #07080c;
+  color: #94a3b8;
+  border-radius: 3px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
